@@ -1,0 +1,19 @@
+{
+  "name": "thomann-price-check",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node index.js",
+    "check:local": "node --env-file=.env index.js",
+    "test": "node --test test/*.js",
+    "test:notify": "node --env-file=.env scripts/test-notify.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}

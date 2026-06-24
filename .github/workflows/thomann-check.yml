@@ -1,0 +1,50 @@
+name: Daily Thomann Price Check
+
+on:
+  schedule:
+    # Runs everyday at 08:00 UTC (10:00 CEST in summer, 09:00 CET in winter)
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: thomann-price-check
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Dependencies
+        run: |
+          npm ci
+          npx playwright install chromium --with-deps
+
+      - name: Run Tests
+        run: npm test
+
+      - name: Run Scraper
+        env:
+          WISHLISTS: ${{ vars.WISHLISTS }}
+          NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
+        run: npm run check
+
+      - name: Commit price history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json data/history.jsonl
+          git diff --staged --quiet || git commit -m "chore: update price history"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
