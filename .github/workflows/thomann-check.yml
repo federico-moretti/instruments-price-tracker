@@ -2,8 +2,8 @@ name: Daily Thomann Price Check
 
 on:
   schedule:
-    - cron: '15 12 * * *'
-      timezone: Europe/Rome
+    - cron: '37 14 * * *'
+      timezone: 'Europe/Rome'
   workflow_dispatch:
 
 concurrency:
