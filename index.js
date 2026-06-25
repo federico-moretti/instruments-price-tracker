@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 import { hasPriceOrAvailabilityChange } from './lib/changes.js';
 import { notifyCheckSummary } from './lib/notify.js';
-import { appendHistory, loadPrices, parsePrice, savePrices } from './lib/storage.js';
+import { appendHistory, formatPrice, loadPrices, parsePrice, savePrices } from './lib/storage.js';
 import { scrapeWishlist } from './lib/wishlist.js';
 import { parseWishlists } from './lib/wishlists.js';
 
@@ -71,7 +71,7 @@ async function checkProduct({ page, url, prices }) {
     typeof result.availabilityLabel === 'string'
       ? ` — ${result.availabilityLabel} (${result.availability})`
       : '';
-  console.log(`🎵 ${result.title}: ${result.price} ${result.currency}${availabilityLog}`);
+  console.log(`🎵 ${result.title}: ${formatPrice(result.price, result.currency)}${availabilityLog}`);
 
   const current = {
     title: result.title,

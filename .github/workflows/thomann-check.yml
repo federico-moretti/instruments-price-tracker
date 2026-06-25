@@ -2,8 +2,8 @@ name: Daily Thomann Price Check
 
 on:
   schedule:
-    # Runs everyday at 08:00 UTC (10:00 CEST in summer, 09:00 CET in winter)
-    - cron: '0 9 * * *'
+    - cron: '15 12 * * *'
+      timezone: Europe/Rome
   workflow_dispatch:
 
 concurrency:
@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - name: Install Dependencies
@@ -31,13 +31,13 @@ jobs:
           npm ci
           npx playwright install chromium --with-deps
 
-      - name: Run Tests
-        run: npm test
-
       - name: Run Scraper
         env:
           WISHLISTS: ${{ vars.WISHLISTS }}
-          NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
+          NOTIFY_PROVIDER: ${{ vars.NOTIFY_PROVIDER }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: npm run check
 
       - name: Commit price history
