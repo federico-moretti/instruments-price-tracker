@@ -3,9 +3,9 @@
     "title": "Harley Benton Fusion-IV HSS MN QBKB",
     "price": 499,
     "currency": "EUR",
-    "availability": "short-term",
-    "availabilityLabel": "Disponibile a breve (normalmente 2-5 giorni)",
-    "checkedAt": "2026-06-29T12:16:36.362Z"
+    "availability": "in-stock",
+    "availabilityLabel": "Disponibile",
+    "checkedAt": "2026-06-29T14:55:04.043Z"
   },
   "https://www.thomann.it/yamaha_revstar_rss02t_fired_red.htm": {
     "title": "Yamaha Revstar RSS02T Fired Red",
@@ -13,7 +13,7 @@
     "currency": "EUR",
     "availability": "short-term",
     "availabilityLabel": "Disponibile a breve (normalmente 2-5 giorni)",
-    "checkedAt": "2026-06-29T12:16:37.170Z"
+    "checkedAt": "2026-06-29T14:55:05.629Z"
   },
   "https://www.thomann.it/harley_benton_st_modern_plus_hss_sfg.htm": {
     "title": "Harley Benton ST-Modern Plus HSS SFG",
@@ -21,7 +21,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:38.145Z"
+    "checkedAt": "2026-06-29T14:55:05.999Z"
   },
   "https://www.thomann.it/harley_benton_amarok_bt_egnt_quilted_burst.htm": {
     "title": "Harley Benton Amarok-BT EGNT Quilted Burst",
@@ -29,7 +29,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:39.074Z"
+    "checkedAt": "2026-06-29T14:55:06.341Z"
   },
   "https://www.thomann.it/ibanez_as93fm_vls.htm": {
     "title": "Ibanez AS93FM-VLS",
@@ -37,7 +37,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:40.071Z"
+    "checkedAt": "2026-06-29T14:55:06.674Z"
   },
   "https://www.thomann.it/larry_carlton_l7_ts_new_gen.htm": {
     "title": "Larry Carlton L7 TS New Gen",
@@ -45,7 +45,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:41.067Z"
+    "checkedAt": "2026-06-29T14:55:07.125Z"
   },
   "https://www.thomann.it/hils_next_hn3_met._emerald_green.htm": {
     "title": "Hils Next HN3 Met. Emerald Green",
@@ -53,7 +53,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:42.156Z"
+    "checkedAt": "2026-06-29T14:55:07.447Z"
   },
   "https://www.thomann.it/neural_dsp_quad_cortex_mini.htm": {
     "title": "Neural DSP Quad Cortex Mini",
@@ -61,7 +61,7 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile fra circa una settimana",
-    "checkedAt": "2026-06-29T12:16:44.109Z"
+    "checkedAt": "2026-06-29T14:55:08.027Z"
   },
   "https://www.thomann.it/focusrite_scarlett_solo_4th_gen.htm": {
     "title": "Focusrite Scarlett Solo 4th Gen",
@@ -69,7 +69,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:45.064Z"
+    "checkedAt": "2026-06-29T14:55:08.330Z"
   },
   "https://www.thomann.it/positive_grid_spark_link.htm": {
     "title": "Positive Grid Spark Link",
@@ -77,7 +77,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:45.983Z"
+    "checkedAt": "2026-06-29T14:55:08.648Z"
   },
   "https://www.thomann.it/thomann_premium_gigbag_eguitar_br.htm": {
     "title": "Thomann E-Guitar Gigbag Premium BR",
@@ -85,7 +85,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:46.863Z"
+    "checkedAt": "2026-06-29T14:55:08.956Z"
   },
   "https://www.thomann.it/hercules_hcgsp_38wb.htm": {
     "title": "Hercules Stands HCGSP-38WB+",
@@ -93,7 +93,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-06-29T12:16:47.694Z"
+    "checkedAt": "2026-06-29T14:55:09.229Z"
   },
   "https://www.thomann.it/ibanez_az2204nw_vr_prestige.htm": {
     "title": "Ibanez AZ2204NW-VR Prestige",

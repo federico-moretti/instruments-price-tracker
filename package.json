@@ -8,7 +8,7 @@
   },
   "scripts": {
     "check": "node index.js",
-    "check:local": "node --env-file=.env index.js",
+    "check:local": "NOTIFY_PROVIDER=console node --env-file=.env index.js",
     "test": "node --test test/*.js",
     "test:notify": "node --env-file=.env scripts/test-notify.js"
   },
