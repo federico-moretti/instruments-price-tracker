@@ -8,9 +8,9 @@
   },
   "scripts": {
     "check": "node index.js",
-    "check:local": "NOTIFY_PROVIDER=console node --env-file=.env index.js",
-    "test": "node --test test/*.js",
-    "test:notify": "node --env-file=.env scripts/test-notify.js"
+    "check:console": "NOTIFY_PROVIDER=console node --env-file=.env index.js",
+    "check:telegram": "NOTIFY_PROVIDER=telegram node --env-file=.env index.js",
+    "check:discord": "NOTIFY_PROVIDER=discord node --env-file=.env index.js"
   },
   "license": "ISC",
   "dependencies": {
