@@ -7,6 +7,16 @@ import { parseWishlists } from './lib/wishlists.js';
 
 const wishlists = parseWishlists();
 
+function getNotifyMode() {
+  const mode = process.env.NOTIFY_MODE;
+
+  if (mode === 'changes') {
+    return 'changes';
+  }
+
+  return 'full';
+}
+
 function stripLeadingEmoji(text) {
   if (typeof text !== 'string' || text.length === 0) {
     return text;
@@ -115,6 +125,7 @@ async function checkProduct({ page, url, prices }) {
 
 async function checkPrices() {
   const prices = await loadPrices();
+  const notifyMode = getNotifyMode();
   const browser = await chromium.launch({ headless: true });
 
   let failures = 0;
@@ -172,6 +183,7 @@ async function checkPrices() {
           await notifyCheckSummary({
             wishlistName: group.name,
             results: [{ type: 'error', url: group.name, message: group.loadError }],
+            mode: notifyMode,
           });
           continue;
         }
@@ -185,7 +197,7 @@ async function checkPrices() {
           return { type: 'error', url, message: 'Product result missing after scrape' };
         });
 
-        await notifyCheckSummary({ wishlistName: group.name, results });
+        await notifyCheckSummary({ wishlistName: group.name, results, mode: notifyMode });
       } catch (error) {
         failures += 1;
         console.error(`Failed notifying for "${group.name}":`, error.message);
