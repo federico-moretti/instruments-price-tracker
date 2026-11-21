@@ -12,8 +12,8 @@
     "price": 788,
     "currency": "EUR",
     "availability": "on-date",
-    "availabilityLabel": "Disponibile entro 4-5 settimane",
-    "checkedAt": "2026-11-19T17:34:20.394Z"
+    "availabilityLabel": "Disponibile entro 3-4 settimane",
+    "checkedAt": "2026-11-21T16:20:10.382Z"
   },
   "https://www.thomann.it/harley_benton_st_modern_plus_hss_sfg.htm": {
     "title": "Harley Benton ST-Modern Plus HSS SFG",
@@ -37,7 +37,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:28.217Z"
+    "checkedAt": "2026-11-21T16:20:16.243Z"
   },
   "https://www.thomann.it/larry_carlton_l7_ts_new_gen.htm": {
     "title": "Larry Carlton L7 TS New Gen",
@@ -53,7 +53,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:27.354Z"
+    "checkedAt": "2026-11-21T16:20:15.583Z"
   },
   "https://www.thomann.it/neural_dsp_quad_cortex_mini.htm": {
     "title": "Neural DSP Quad Cortex Mini",
@@ -61,7 +61,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:30.258Z"
+    "checkedAt": "2026-11-21T16:20:18.086Z"
   },
   "https://www.thomann.it/focusrite_scarlett_solo_4th_gen.htm": {
     "title": "Focusrite Scarlett Solo 4th Gen",
@@ -77,7 +77,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:32.665Z"
+    "checkedAt": "2026-11-21T16:20:20.188Z"
   },
   "https://www.thomann.it/thomann_premium_gigbag_eguitar_br.htm": {
     "title": "Thomann E-Guitar Gigbag Premium BR",
@@ -101,7 +101,7 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile entro 2-3 settimane",
-    "checkedAt": "2026-11-19T17:34:36.695Z"
+    "checkedAt": "2026-11-21T16:20:23.719Z"
   },
   "https://www.thomann.it/neural_dsp_quad_cortex.htm": {
     "title": "Neural DSP Quad Cortex",
@@ -109,7 +109,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:37.530Z"
+    "checkedAt": "2026-11-21T16:20:24.414Z"
   },
   "https://www.thomann.it/seymour_duncan_power_stage_170.htm": {
     "title": "Seymour Duncan Power Stage 170",
@@ -117,7 +117,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:38.382Z"
+    "checkedAt": "2026-11-21T16:20:25.115Z"
   },
   "https://www.thomann.it/engl_e212vb.htm": {
     "title": "Engl E212VB",
@@ -125,7 +125,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:39.331Z"
+    "checkedAt": "2026-11-21T16:20:25.834Z"
   },
   "https://www.thomann.it/esp_e_ii_horizon_nt_7b_hipshot.htm": {
     "title": "ESP E-II Horizon NT-7B Hipshot",
@@ -133,7 +133,7 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile entro 9-12 settimane",
-    "checkedAt": "2026-11-19T17:34:40.286Z"
+    "checkedAt": "2026-11-21T16:20:26.525Z"
   },
   "https://www.thomann.it/strandberg_boden_original_n26_sunset.htm": {
     "title": "Strandberg Boden Original N2.6 Sunset",
@@ -149,7 +149,7 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile entro 2-3 settimane",
-    "checkedAt": "2026-11-19T17:34:41.948Z"
+    "checkedAt": "2026-11-21T16:20:27.238Z"
   },
   "https://www.thomann.it/fender_ultra_luxe_60s_strat_hss_frd.htm": {
     "title": "Fender Ultra Luxe 60s Strat HSS FRD",
@@ -164,8 +164,8 @@
     "price": 2999,
     "currency": "EUR",
     "availability": "on-date",
-    "availabilityLabel": "Disponibile fra circa una settimana",
-    "checkedAt": "2026-11-19T17:34:42.633Z"
+    "availabilityLabel": "Disponibile entro 11-14 settimane",
+    "checkedAt": "2026-11-21T16:20:28.116Z"
   },
   "https://www.thomann.it/prs_custom_24_cobalt_smokeburst.htm": {
     "title": "PRS Custom 24 Cobalt Smokeburst",
@@ -189,7 +189,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:44.229Z"
+    "checkedAt": "2026-11-21T16:20:29.614Z"
   },
   "https://www.thomann.it/gotoh_sg381_07_mg_t_locking_6l_cb.htm": {
     "title": "Gotoh SG381-07 MG-T Locking 6L CB",
@@ -205,7 +205,7 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile entro 2-3 settimane",
-    "checkedAt": "2026-11-19T17:34:25.723Z"
+    "checkedAt": "2026-11-21T16:20:14.083Z"
   },
   "https://www.thomann.it/gotoh_sg301_04_mg_t_locking_3l_3r_c.htm": {
     "title": "Gotoh SG301-04 MG-T Locking 3L/3R C",
@@ -213,7 +213,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:33.377Z"
+    "checkedAt": "2026-11-21T16:20:20.849Z"
   },
   "https://www.thomann.it/suhr_classic_t_mn_bs.htm": {
     "title": "Suhr Classic T MN BS",
@@ -221,7 +221,7 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile entro 9-12 settimane",
-    "checkedAt": "2026-11-19T17:34:43.426Z"
+    "checkedAt": "2026-11-21T16:20:28.817Z"
   },
   "https://www.thomann.it/ibanez_540piii_pn.htm": {
     "title": "Ibanez 540PIII-PN",
@@ -245,7 +245,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:30.956Z"
+    "checkedAt": "2026-11-21T16:20:18.758Z"
   },
   "https://www.thomann.it/harley_benton_fusion_iv_hss_mn_bm.htm": {
     "title": "Harley Benton Fusion-IV HSS MN BM",
@@ -253,15 +253,15 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile entro 1-2 settimane",
-    "checkedAt": "2026-11-19T17:34:24.835Z"
+    "checkedAt": "2026-11-21T16:20:13.377Z"
   },
   "https://www.thomann.it/boss_katana_mini_x.htm": {
     "title": "Boss Katana Mini X",
     "price": 159,
     "currency": "EUR",
-    "availability": "short-term",
-    "availabilityLabel": "Disponibile a breve (normalmente 2-5 giorni)",
-    "checkedAt": "2026-11-19T17:34:31.812Z"
+    "availability": "on-date",
+    "availabilityLabel": "Disponibile entro 8-10 settimane",
+    "checkedAt": "2026-11-21T16:20:19.487Z"
   },
   "https://www.thomann.it/gotoh_sg381_07_mg_t_locking_6l_bc.htm": {
     "title": "Gotoh SG381-07 MG-T Locking 6L B",
@@ -269,7 +269,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:34.218Z"
+    "checkedAt": "2026-11-21T16:20:21.640Z"
   },
   "https://www.thomann.it/harley_benton_fusion_iv_mn_ht_emg_sbk.htm": {
     "title": "Harley Benton Fusion-IV MN HT EMG SBK",
@@ -277,7 +277,7 @@
     "currency": "EUR",
     "availability": "on-date",
     "availabilityLabel": "Disponibile entro 1-2 settimane",
-    "checkedAt": "2026-11-19T17:34:24.008Z"
+    "checkedAt": "2026-11-21T16:20:12.888Z"
   },
   "https://www.thomann.it/harley_benton_sc_custom_plus_emg_tbf.htm": {
     "title": "Harley Benton SC-Custom Plus EMG TBF",
@@ -285,7 +285,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:22.188Z"
+    "checkedAt": "2026-11-21T16:20:11.617Z"
   },
   "https://www.thomann.it/ibanez_540piiihh_bk.htm": {
     "title": "Ibanez 540PIIIHH-BK",
@@ -293,7 +293,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:21.125Z"
+    "checkedAt": "2026-11-21T16:20:10.974Z"
   },
   "https://www.thomann.it/harley_benton_fpc28_flat_patch_cable.htm": {
     "title": "Harley Benton FPC-28 Flat Patch Cable",
@@ -309,7 +309,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:29.422Z"
+    "checkedAt": "2026-11-21T16:20:17.403Z"
   },
   "https://www.thomann.it/schecter_c_7_sls_evil_twin_sbk.htm": {
     "title": "Schecter C-7 SLS Evil Twin SBK",
@@ -317,7 +317,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:26.552Z"
+    "checkedAt": "2026-11-21T16:20:14.814Z"
   },
   "https://www.thomann.it/schecter_c_1_sls_evil_twin_satin_black.htm": {
     "title": "Schecter C-1 SLS Evil Twin Satin Black",
@@ -325,7 +325,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:35.074Z"
+    "checkedAt": "2026-11-21T16:20:22.441Z"
   },
   "https://www.thomann.it/ibanez_rg5121r_dbf.htm": {
     "title": "Ibanez RG5121R-DBF",
@@ -333,7 +333,7 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:35.889Z"
+    "checkedAt": "2026-11-21T16:20:23.083Z"
   },
   "https://www.thomann.it/cort_kx700_evertune_open_pore_black.htm": {
     "title": "Cort KX700 Evertune Open Pore Black",
@@ -341,6 +341,6 @@
     "currency": "EUR",
     "availability": "in-stock",
     "availabilityLabel": "Disponibile",
-    "checkedAt": "2026-11-19T17:34:23.135Z"
+    "checkedAt": "2026-11-21T16:20:12.266Z"
   }
 }
